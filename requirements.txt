@@ -27,7 +27,7 @@ pyparsing==2.2.2
 pyproj==1.9.5.1
 python-dateutil==2.7.3
 pytz==2018.5
-requests==2.19.1
+requests>=2.20.0
 Shapely==1.6.4.post2
 six==1.11.0
 typed-ast==1.1.0
