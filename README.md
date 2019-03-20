@@ -1,13 +1,13 @@
 ## Blinking-Eye
 ### A simple CLI to visualise inbound connections to a Tor Bridge
 
-#### Setup instructions
+#### Setup instructions:
  - Clone the repository
  - Install dependencies with `pip install -r requirements.txt`
  - Make sure you get a `cache.sqlite` file from your system running a Tor bridge with [nyx](https://nyx.torproject.org/) as a monitor. By default it is stored at `~/.nyx/logs`
  - Either place it in the root directory or provide a path.
 
-#### Usage
+#### Usage:
 
 ```
 usage: blink.py [-h]
@@ -22,5 +22,5 @@ optional arguments:
 
 ```
 
-#### Disclaimer
-Often users use VPN(which is the best practice) while connecting to the Tor Network, which leaves the project useless
+#### Disclaimer:
+Connecting to the Tor Network with a VPN renders the project useless, although it is the best practice.
